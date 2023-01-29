@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:rgb(34, 31, 31);
+    
+}
+.container{
+    background-color: white;
+    width:45vw;
+    height:auto;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 25vw;
+    border-radius: 28px;
+    
+}
+.container p{
+    margin: 15px;
+    
+    margin-left: 14.5vw;
+    font-weight: 500;
+    font-size: 24px;
+}
+.container input{
+    margin-left: 10vw;
+    margin-top: 5vh;
+    border: 2px solid black;
+    width:25vw;
+    height: 45px;
+    border-radius: 10px;
+}
+.container button{
+   margin-top: 7vh;
+   margin-left: 15vw;
+    width:15vw;
+   height: 4vh;
+   margin-bottom: 2vh;
+   border-radius: 10px;
+   background-color:blueviolet;
+   color: white;
+}
+button:active{
+    scale: 0.9;
+}
+.container ::placeholder{
+    font-weight: 500;
+    text-decoration: none;
+    font-style: italic;
+    color:black;
+}
+#qrCodeImage{
+    margin-left: 17vw;
+    margin-top: 5vh;
+    border: 2px solid green;
+    border-radius: 10px ;
+    
+}
+.error{
+    animation: shake 0.1s linear;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-4px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(4px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
