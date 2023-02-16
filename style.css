@@ -53,8 +53,7 @@ button:active{
 }
 #qrCodeImage{
     margin-left: 17vw;
-    margin-top: 5vh;
-    border: 2px solid green;
+    margin-top: 5vh; 
     border-radius: 10px ;
     
 }
@@ -79,7 +78,14 @@ button:active{
     }
 }
 @media screen and (max-width:600px) {
+    body{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
     .container{
+        margin-top: 95vh;
         width: 65vw;
         display: grid;
         justify-content: center;
