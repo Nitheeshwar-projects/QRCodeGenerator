@@ -78,35 +78,3 @@ button:active{
         transform: translateX(0);
     }
 }
-@media screen and (max-width:600px) {
-    .container{
-        width: 65vw;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
-    .container p{
-
-        margin-left: -1px;
-    }
-    #qrText{
-        width:100%;
-        margin-left: -0.05vw;
-    }
-    #qrCodeImage{
-        justify-content:center ;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        image-rendering: crisp-edges;
-        image-orientation: 0deg;
-        margin-left:-2px;
-        margin-left: 50px;
-    }
-    .container button{
-        width:100px;
-        margin-left: -2px;
-        margin-left: 70px;
-    }
-    
-}
